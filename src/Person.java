@@ -8,7 +8,7 @@ public abstract class Person {
         this.name = name;
     }
 
-    // Common getters/setters
+
     public String getId() {
         return id;
     }
@@ -21,9 +21,6 @@ public abstract class Person {
         this.name = name;
     }
 
-    /**
-     * Abstract method to enforce a summary representation
-     * in all subclasses (abstraction).
-     */
+
     public abstract String getSummary();
 }
